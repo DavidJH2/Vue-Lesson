@@ -1,5 +1,5 @@
 <script setup>
-    import { reactive, defineProps, onMounted } from 'vue';
+    import { reactive, onMounted } from 'vue';
     import JobListing from './jobListing.vue';
     import axios from 'axios';
     import PulseLoader from 'vue-spinner/src/pulseLoader.vue'
